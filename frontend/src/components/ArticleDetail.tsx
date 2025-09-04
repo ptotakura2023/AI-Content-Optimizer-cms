@@ -1,8 +1,8 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react'; 
 import axios from 'axios';
 import { useParams, Link } from 'react-router-dom';
 import type { Article } from '../types';
-import { API_BASE_URL } from '../apiConfig'; // Import the base URL
+import { API_BASE_URL } from '../apiConfig';
 
 const ArticleDetail = () => {
   const [article, setArticle] = useState<Article | null>(null);
