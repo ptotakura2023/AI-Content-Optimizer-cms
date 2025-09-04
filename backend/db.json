@@ -1,0 +1,75 @@
+{
+  "articles": [
+    {
+      "id": "a1b2c3d4-e5f6-7890-1234-567890abcdef",
+      "title": "Welcome to the Blog!",
+      "author": "Admin",
+      "body": "This is the very first post on our new, AI-powered blog. We're excited to see how AI can help us create better content, faster.",
+      "seoMetaDescription": "The inaugural post on our innovative blog, showcasing the future of content creation with artificial intelligence.",
+      "tags": [
+        "welcome",
+        "ai",
+        "blogging",
+        "tech"
+      ],
+      "socialMediaSummary": "🚀 Just launched our new blog where we'll explore the intersection of AI and content creation. Check out our first post!"
+    },
+    {
+      "id": "512463bb-e536-4af9-bbc9-28a49c66b9a3",
+      "title": "Testing with Postman",
+      "author": "Pranay",
+      "body": "This is the body of my test article created using Postman."
+    },
+    {
+      "id": "e14c8038-984e-4af7-b1a4-5fccac13fb8c",
+      "title": "Testing with Postman",
+      "author": "Pranay",
+      "body": "This is the body of my test article created using Postman.",
+      "seoMetaDescription": "Master API testing with Postman! Learn how to efficiently test your APIs and ensure seamless functionality. Get started with Postman today.",
+      "tags": [
+        "Postman",
+        "API Testing",
+        "API",
+        "Software Testing",
+        "REST API",
+        "Automation Testing",
+        "Postman Tutorial"
+      ],
+      "socialMediaSummary": "Level up your API testing skills with Postman! Learn efficient testing techniques and ensure flawless API functionality. #Postman #APITesting #SoftwareTesting"
+    },
+    {
+      "id": "e7049514-073d-4331-b5be-ad8ebf032800",
+      "title": "Testing with Postman",
+      "author": "Pranay",
+      "body": "This is the body of my test article created using Postman.",
+      "seoMetaDescription": "Master API testing with Postman! Learn how to efficiently test your APIs and ensure seamless functionality.  Boost your development workflow today.",
+      "tags": [
+        "Postman",
+        "API Testing",
+        "API",
+        "Software Testing",
+        "REST API",
+        "Development",
+        "Automation"
+      ],
+      "socialMediaSummary": "Level up your API testing game with Postman!  Learn efficient testing techniques and streamline your development process. #Postman #apitesting #softwareTesting"
+    },
+    {
+      "id": "1f515b2c-60fb-47d5-921b-505b4ebf4b6b",
+      "title": "Resume Optimization ",
+      "author": "Pranay",
+      "body": "Tailoring the resumes for each job application increase our chances of passing the ATS and takes our resume to Recruiter's attention.\nSo, we must tailor our resume with the required skillset from the job description and integrate them naturally into the resume sections",
+      "seoMetaDescription": "Boost your job application success! Learn how to optimize your resume by tailoring it to each job description, passing ATS, and grabbing recruiter attention. #resumeoptimization #jobsearch #careers #recruiting #ATS",
+      "tags": [
+        "Resume Optimization",
+        "ATS Optimization",
+        "Resume Tailoring",
+        "Job Application",
+        "Recruiting",
+        "Career Advice",
+        "Job Search"
+      ],
+      "socialMediaSummary": "Maximize your resume's impact! Learn how to optimize your resume for Applicant Tracking Systems (ATS) and recruiter attention by tailoring it to each job description. #resumetips #jobsearch"
+    }
+  ]
+}

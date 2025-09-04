@@ -1,0 +1,12 @@
+Ignore Node.js dependency folders
+/backend/node_modules
+/frontend/node_modules
+
+Ignore environment files with secret keys
+/backend/.env
+
+Ignore build output folders
+/frontend/dist
+
+Ignore OS-specific files
+.DS_Store
