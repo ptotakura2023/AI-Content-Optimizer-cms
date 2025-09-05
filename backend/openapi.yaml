@@ -1,0 +1,91 @@
+openapi: 3.0.0
+info:
+  title: AI Content Optimizer API
+  description: An API for creating and enriching blog articles using AI.
+  version: 1.0.0
+servers:
+  - url: /api
+paths:
+  /articles:
+    get:
+      summary: Retrieve all articles
+      description: Fetches a list of all articles currently stored in the database.
+      responses:
+        '200':
+          description: A successful response.
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Article'
+    post:
+      summary: Create and enrich a new article
+      description: Creates a new article. The server automatically enriches the content with AI-generated SEO data, tags, and a social media summary before saving.
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/NewArticleRequest'
+      responses:
+        '201':
+          description: Article created and enriched successfully.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Article'
+  /articles/{id}:
+    get:
+      summary: Retrieve a single article
+      description: Fetches a single article by its unique ID.
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: A successful response.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Article'
+        '404':
+          description: Article not found.
+components:
+  schemas:
+    Article:
+      type: object
+      properties:
+        id:
+          type: string
+          format: uuid
+        title:
+          type: string
+        author:
+          type: string
+        body:
+          type: string
+        seoMetaDescription:
+          type: string
+        tags:
+          type: array
+          items:
+            type: string
+        socialMediaSummary:
+          type: string
+    NewArticleRequest:
+      type: object
+      required:
+        - title
+        - author
+        - body
+      properties:
+        title:
+          type: string
+        author:
+          type: string
+        body:
+          type: string
